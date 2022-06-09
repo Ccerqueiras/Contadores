@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+/* exemplo de alinhamento com o centro da tela*** */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(13, 128, 228, 0.844);
+}
+.bl{
+    color: black;
+    border-radius:0;
+    width: auto;
+    height: auto;
+    background-color: rgba(77, 98, 255, 0.456);
+    border: 3px solid rgba(73, 233, 119, 0.938);
+}
+button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid rgba(129, 29, 251, 0.381);
+    background-color: rgba(73, 233, 119, 0.938);
+    color: rgba(129, 29, 251, 0.381);
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+#counter {
+    display: flex;
+}
+
+#currentNumber1 {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 16pt;
+}
+#currentNumber2 {
+    display: flex;
+    align-items: center;
+    color: green;
+    margin: 0 20px;
+    font-size: 16pt;
+}
+#currentNumber3 {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 16pt;
+}
+
+#clique{
+    display: flex;
+    color: white;
+    border: 3px solid rgba(73, 233, 119, 0.938);
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(13, 128, 228, 0.844);
+}
